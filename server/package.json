@@ -1,7 +1,13 @@
 {
+  "name": "busbook-server",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "seed": "node seed/seed.js",
     "deploy": "npm run seed && npm start"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
